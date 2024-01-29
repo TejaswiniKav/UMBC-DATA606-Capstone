@@ -1,3 +1,5 @@
+**Link to the headshot picture :docs/me.jpg**
+
 # TEJASWINI KAVURI
 - Email: tejaswinikavuriva@gmail.com
 - Phone: +1 (425) 531-6763
