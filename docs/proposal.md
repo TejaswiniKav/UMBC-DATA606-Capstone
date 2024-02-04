@@ -36,50 +36,12 @@ https://www.kaggle.com/datasets/shilongzhuang/telecom-customer-churn-by-maven-an
 - Size of the dataset is - 1.40 MB
 - Our dataset has 38 columns and 7,043 customer data in total. 
 - Each row represent the customer data according to the specific column.
-#   Column                             Non-Null Count  Dtype    Defnition 
----  ------                             --------------  -----   ---------
- 0   Customer ID                        7043 non-null   object  Represents the unique identifier of each customer
- 1   Gender                             7043 non-null   object  Indicates customer gender (Male or Female).
- 2   Age                                7043 non-null   int64   Represents the customer age (in years)
- 3   Married                            7043 non-null   object  Indicates whether the customer is married or not (Yes or No)
- 4   Number of Dependents               7043 non-null   int64   Represents the no. of dependents in the family that will be associated with the customer
- 5   City                               7043 non-null   object  Represents the customer city where they located
- 6   Zip Code                           7043 non-null   int64   Represents the customer zipcode
- 7   Latitude                           7043 non-null   float64 Represents the customers latitude geographical location
- 8   Longitude                          7043 non-null   float64 Represents the customers longitude geographical location
- 9   Number of Referrals                7043 non-null   int64   Indicates the number of referrals of the customer
- 10  Tenure in Months                   7043 non-null   int64   Represents the service duration of the customer associated with the serive in months
- 11  Offer                              7043 non-null   object  Represent the offer type that the customer is subscribed to
- 12  Phone Service                      7043 non-null   object  Indicates whether the customer has the phone service or not (Yes or No)
- 13  Avg Monthly Long Distance Charges  6361 non-null   float64 Represents the average monthly long distance service charges 
- 14  Multiple Lines                     6361 non-null   object  Indicates whether the customer is in multiple phone lines( Yes or No)
- 15  Internet Service                   7043 non-null   object  Represents the internet service that the customer is subscribed to
- 16  Internet Type                      5517 non-null   object  Represents the type of the internet service that the customer is subscribed to
- 17  Avg Monthly GB Download            5517 non-null   float64 Represents the average monthly usage of the data in Gigabytes.
- 18  Online Security                    5517 non-null   object  Indicates whether or not a customer have online security services
- 19  Online Backup                      5517 non-null   object  Indicates whether the customer has the online backup services
- 20  Device Protection Plan             5517 non-null   object  Indicates whether the customer has Device Protection Plan 
- 21  Premium Tech Support               5517 non-null   object  Indicates whether the customer has Premium Tech Support
- 22  Streaming TV                       5517 non-null   object  Indicates whether the customer has Streaming TV service
- 23  Streaming Movies                   5517 non-null   object  Indicates whether the customer has Streaming Movies service
- 24  Streaming Music                    5517 non-null   object  Indicates whether the customer has Streaming Music services
- 25  Unlimited Data                     5517 non-null   object  Indicates whether the customer has Unlimited Data services
- 26  Contract                           7043 non-null   object  Represents the type of contract that the customer has (One, two years, month-to-month)
- 27  Paperless Billing                  7043 non-null   object  Indicates whether a customer has opted for the paperless bulding
- 28  Payment Method                     7043 non-null   object  Represents the customer payment preferred method
- 29  Monthly Charge                     7043 non-null   float64 Represents the monthly charges for the customer according to the subscription
- 30  Total Charges                      7043 non-null   float64 Represents the total charges of the customer
- 31  Total Refunds                      7043 non-null   float64 Represents the total refunds for the customer
- 32  Total Extra Data Charges           7043 non-null   int64   Represents the total extra data charges for the customer
- 33  Total Long Distance Charges        7043 non-null   float64 Represents the total long distance charges for the customer
- 34  Total Revenue                      7043 non-null   float64 Represents the total revenue generated from the customer
- 35  Customer Status                    7043 non-null   object  Represents the status of the customer (active or inactive for the service)
- 36  Churn Category                     1869 non-null   object  Indicates whether a customer is churned (Yes or No)
- 37  Churn Reason                       1869 non-null   object  Reason provided for the customer Churn if possible
+- Attaching the image of the columns that are present in the dataset.
+- Link:https://github.com/TejaswiniKav/UMBC-DATA606-Capstone/blob/main/docs/Dataset%20columns.jpg
 
-- Which variable/column will be your target/label in your ML model?
+## Which variable/column will be your target/label in your ML model?
 The model that will be targeted in the model is the 'Customer Status' column
-- Which variables/columns may be selected as features/predictors for your ML models?
+## Which variables/columns may be selected as features/predictors for your ML models?
 All the columns excluding the 'Customer Status' column can be selected for the features/predictors.
 
 
