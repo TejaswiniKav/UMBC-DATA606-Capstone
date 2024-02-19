@@ -50,6 +50,47 @@ https://www.kaggle.com/datasets/shilongzhuang/telecom-customer-churn-by-maven-an
 - Each row represent the customer data according to the specific column.
 - Attaching the image of the columns that are present in the dataset.
 - Link:https://github.com/TejaswiniKav/UMBC-DATA606-Capstone/blob/main/docs/Dataset%20columns.jpg
+Column	Dtype	Definition
+Customer ID	object	Represents the unique identifier of each customer
+Gender	object	Indicates customer gender (Male or Female).
+Age	int64	Represents the customer age (in years)
+Married	object	Indicates whether the customer is married or not (Yes or No)
+Number of Dependents	int64	Represents the no. of dependents in the family that will be associated with the customer
+City	object	Represents the customer city where they located
+Zip Code	int64	Represents the customer zipcode
+Latitude	float64	Represents the customers latitude geographical location
+Longitude	float64	Represents the customers longitude geographical location
+Number of Referrals	int64	Indicates the number of referrals of the customer
+Tenure in Months	int64	Represents the service duration of the customer associated with the serive in months
+Offer	object	Represent the offer type that the customer is subscribed to
+Phone Service	object	Indicates whether the customer has the phone service or not (Yes or No)
+Avg Monthly Long Distance Charges	float64	Represents the average monthly long distance service charges
+Multiple Lines	object	Indicates whether the customer is in multiple phone lines( Yes or No)
+Internet Service	object	Represents the internet service that the customer is subscribed to
+Internet Type	object	Represents the type of the internet service that the customer is subscribed to
+Avg Monthly GB Download	float64	Represents the average monthly usage of the data in Gigabytes.
+Online Security	object	Indicates whether or not a customer have online security services
+Online Backup	object	Indicates whether the customer has the online backup services
+Device Protection Plan	object	Indicates whether the customer has Device Protection Plan
+Premium Tech Support	object	Indicates whether the customer has Premium Tech Support
+Streaming TV	object	Indicates whether the customer has Streaming TV service
+Streaming Movies	object	Indicates whether the customer has Streaming Movies service
+Streaming Music	object	Indicates whether the customer has Streaming Music services
+Unlimited Data	object	Indicates whether the customer has Unlimited Data services
+Contract	object	Represents the type of contract that the customer has (One, two years, month-to-month)
+Paperless Billing	object	Indicates whether a customer has opted for the paperless bulding
+Payment Method	object	Represents the customer payment preferred method
+Monthly Charge	float64	Represents the monthly charges for the customer according to the subscription
+Total Charges	float64	Represents the total charges of the customer
+Total Refunds	float64	Represents the total refunds for the customer
+Total Extra Data Charges	int64	Represents the total extra data charges for the customer
+Total Long Distance Charges	float64	Represents the total long distance charges for the customer
+Total Revenue	float64	Represents the total revenue generated from the customer
+Customer Status	object	Represents the status of the customer (active or inactive for the service)
+Churn Category	object	Indicates whether a customer is churned (Yes or No)
+Churn Reason	object	Reason provided for the customer Churn if possible
+![image](https://github.com/TejaswiniKav/UMBC-DATA606-Capstone/assets/158081112/b18b30c2-bb5d-4c28-a320-11fe6a33f3b8)
+
 
 ## Which variable/column will be your target/label in your ML model?
 The model that will be targeted in the model is the 'Customer Status' column
