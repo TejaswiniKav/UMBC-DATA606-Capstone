@@ -48,8 +48,6 @@ https://www.kaggle.com/datasets/shilongzhuang/telecom-customer-churn-by-maven-an
 - Size of the dataset is - 1.40 MB
 - Our dataset has 38 columns and 7,043 customer data in total. 
 - Each row represent the customer data according to the specific column.
-- Attaching the image of the columns that are present in the dataset.
-- Link:https://github.com/TejaswiniKav/UMBC-DATA606-Capstone/blob/main/docs/Dataset%20columns.jpg
 
 | Column                             | Dtype   | Definition                                                                                                           |
 | ---------------------------------- | ------- | -------------------------------------------------------------------------------------------------------------------- |
