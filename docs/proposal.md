@@ -89,6 +89,8 @@ Total Revenue	float64	Represents the total revenue generated from the customer
 Customer Status	object	Represents the status of the customer (active or inactive for the service)
 Churn Category	object	Indicates whether a customer is churned (Yes or No)
 Churn Reason	object	Reason provided for the customer Churn if possible
+![image](https://github.com/TejaswiniKav/UMBC-DATA606-Capstone/assets/158081112/2476a06d-559a-451d-8faa-b90d4b581c6f)
+
 
 ## Which variable/column will be your target/label in your ML model?
 The model that will be targeted in the model is the 'Customer Status' column
