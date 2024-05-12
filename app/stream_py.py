@@ -80,7 +80,7 @@ Original file is located at
 # if st.checkbox('Show data used for training'):
 #     st.write(data)
 
-!pip install streamlit
+#!pip install streamlit
 import streamlit as st
 import pandas as pd
 import pickle
