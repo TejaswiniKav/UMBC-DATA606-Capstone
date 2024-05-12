@@ -162,5 +162,5 @@ if st.button('Predict'):
     result = 'Churn' if prediction[0] == 1 else 'No Churn'
     st.success(f'The prediction result is: {result}')
 
-!streamlit run https://colab.research.google.com/drive/1ZivynqtTU7alYeohRLQGO9Vfh1pEE3Wx#scrollTo=rtoUzpWvDgGE/stream.py
+!streamlit run stream_py.py
 
