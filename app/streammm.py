@@ -7,10 +7,10 @@ Original file is located at
     https://colab.research.google.com/drive/1ZivynqtTU7alYeohRLQGO9Vfh1pEE3Wx
 """
 
-pip install streamlit
-!pip install pyngrok==4.1.1
 
-!pip install streamlit
+# !pip install pyngrok==4.1.1
+
+# !pip install streamlit
 import streamlit as st
 import pandas as pd
 import pickle
@@ -79,4 +79,4 @@ if st.button('Predict'):
     result = 'Churn' if prediction[0] == 1 else 'No Churn'
     st.success(f'The prediction result is: {result}')
 
-!streamlit run stream_py.py
+streamlit run stream_py.py
