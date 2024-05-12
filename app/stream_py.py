@@ -57,9 +57,6 @@ pickle.dump(load_model, open(filename, 'wb'))
 # Load the model
 load_model = pickle.load(open(filename, 'rb'))
 
-# model = load_model()
-
-
 # User Inputs
 tenure = st.number_input('Tenure (months)', min_value=0, value=30)
 monthly_charges = st.number_input('Monthly Charges', min_value=0.0, value=70.0)
