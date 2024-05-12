@@ -4,13 +4,6 @@ import pandas as pd
 import pickle
 import requests
 
-# Load data from the GitHub URL
-#@st.cache
-# def load_data():
-#     url = 'https://github.com/TejaswiniKav/UMBC-DATA606-Capstone/blob/main/data/telecom_customer_churn.csv'
-#     df = pd.read_csv(url)
-#     return df
-
 # URL of the CSV file
 url = 'https://github.com/TejaswiniKav/UMBC-DATA606-Capstone/blob/main/data/telecom_customer_churn.csv'
 
@@ -81,4 +74,3 @@ if st.button('Predict'):
     st.success(f'The prediction result is: {result}')
 
 !streamlit run https://colab.research.google.com/drive/1ZivynqtTU7alYeohRLQGO9Vfh1pEE3Wx#scrollTo=rtoUzpWvDgGE/stream.py
-
