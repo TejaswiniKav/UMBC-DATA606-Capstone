@@ -38,13 +38,6 @@ def load_model():
         model = pickle.load(file)
     return model
 
-# # Load the trained model from a local pickle file
-# @st.cache(allow_output_mutation=True)
-# def load_model():
-#     filename = 'ML.pkl'
-#     loaded_model = pickle.load(open(filename, 'rb'))
-#     return loaded_model
-# App title
 st.title('Telecom Customer Churn Prediction')
 
 # # Load model
