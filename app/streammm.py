@@ -72,5 +72,17 @@ import subprocess
 
 command = ['streamlit', 'run', 'stream_py.py', '--server.port', '8501']
 subprocess.run(command)
+try:
+    
+    completed_process = subprocess.run(command, timeout=300)
+    # Check if the subprocess completed successfully
+    if completed_process.returncode == 0:
+        print("Streamlit app ran successfully.")
+    else:
+        print("Streamlit app exited with an error.")
+except subprocess.TimeoutExpired:
+    print("Streamlit app timed out and was forcefully terminated.")
+except Exception as e:
+    print(f"Error running Streamlit app: {e}")
 
 
