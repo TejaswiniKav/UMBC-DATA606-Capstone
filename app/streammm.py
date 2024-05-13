@@ -79,8 +79,10 @@ if st.button('Predict'):
     result = 'Churn' if prediction[0] == 1 else 'No Churn'
     st.success(f'The prediction result is: {result}')
 
-# streamlit run stream_py.py
-import subprocess
+# # streamlit run stream_py.py
+# import subprocess
 
-subprocess.run(["streamlit", "run", "stream_py.py"])
+# subprocess.run(["streamlit", "run", "stream_py.py"])
+
+!streamlit run stream_py.py --server.port 8888
 
