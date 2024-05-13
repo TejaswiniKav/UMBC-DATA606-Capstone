@@ -68,5 +68,9 @@ if st.button('Predict'):
 
 # subprocess.run(["streamlit", "run", "stream_py.py"])
 
-!streamlit run stream_py.py --server.port 8888
+import subprocess
+
+command = ['streamlit', 'run', 'stream_py.py', '--server.port', '8888']
+subprocess.run(command)
+
 
