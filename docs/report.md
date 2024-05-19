@@ -133,10 +133,22 @@ All the columns excluding the 'Customer Status' column can be selected for the f
 http://localhost:8501/
 
 ## 7. Conclusion
-•	In this project, I have addressed the critical issue of the Telecom Customer Churn Prediction using the analysis and predicting Churn using the Machine learning techniques. /n 
-•	I have gained valuable analysis after doing the exploratory analysis and also by developing the predictive models that are influencing the Churn rate. /n
-•	The machine learning models Random Forest Classifier, SVM and Logistic Regression helped me to achieve the best accuracy in predicting the Churn rate. /n
-•	I believe in future, by exploring and refining the modelling techniques can improve the churn model prediction powers and also by integrating the real-time data and advanced analytic methods. /n
+•	In this project, I have addressed the critical issue of the Telecom Customer Churn Prediction using the analysis and predicting Churn using the Machine learning techniques. 
+
+
+
+•	I have gained valuable analysis after doing the exploratory analysis and also by developing the predictive models that are influencing the Churn rate. 
+
+
+
+•	The machine learning models Random Forest Classifier, SVM and Logistic Regression helped me to achieve the best accuracy in predicting the Churn rate. 
+
+
+
+•	I believe in future, by exploring and refining the modelling techniques can improve the churn model prediction powers and also by integrating the real-time data and advanced analytic methods. 
+
+
+
 •	This project mainly contributes the importance of how to manage the Churn rate in the Telecom Industry.
 
 ## 8. References 
