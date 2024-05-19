@@ -98,8 +98,14 @@ The model that will be targeted in the model is the 'Customer Status' column
 ## Which variables/columns may be selected as features/predictors for your ML models?
 All the columns excluding the 'Customer Status' column can be selected for the features/predictors.
 
+## 4. EDA
+## Finding the missing values
+![image](https://github.com/TejaswiniKav/UMBC-DATA606-Capstone/assets/158081112/a0553489-24c8-4d44-8ae7-ea3122d8e23d)
 
-## 4. References 
+
+
+
+##  References 
 The specific telecom customer churn dataset:
 https://www.mavenanalytics.io/blog/maven-churn-challenge
 
