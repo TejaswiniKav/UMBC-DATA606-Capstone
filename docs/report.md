@@ -130,6 +130,7 @@ All the columns excluding the 'Customer Status' column can be selected for the f
 ## Got the best accuracy in Random Forest Classifier model
 
 ## 6. Streamlit application link: 
+http://localhost:8501/
 
 ## 7. References 
 The specific telecom customer churn dataset:
