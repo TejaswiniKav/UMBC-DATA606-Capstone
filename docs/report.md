@@ -2,28 +2,28 @@
  
 ## 1. Title and Author
 
-#DATA 606 Capstone in Data Science
+DATA 606 Capstone in Data Science
 
 
-#Professor: Dr. Chaojie (Jay) Wang
+Professor: Dr. Chaojie (Jay) Wang
 
 
-#Title of the project: Telecom Customer Churn Prediction
+Title of the project: Telecom Customer Churn Prediction
 
 
-#Author: Tejaswini Kavuri(CM12215)
+Author: Tejaswini Kavuri(CM12215)
 
 
-#Github profile link: https://github.com/TejaswiniKav/UMBC-DATA606-Capstone
+Github profile link: https://github.com/TejaswiniKav/UMBC-DATA606-Capstone
 
 
-#LinkedIn Profile link:
+LinkedIn Profile link:
 
 
-#PowerPoint presentation file:
+PowerPoint presentation file:
 
 
-#YouTube video:
+YouTube video:
 
 ## 2. Background 
  
