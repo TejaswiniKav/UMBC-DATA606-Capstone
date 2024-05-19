@@ -101,12 +101,36 @@ All the columns excluding the 'Customer Status' column can be selected for the f
 ## 4. EDA
 ## Finding the missing values
 ![image](https://github.com/TejaswiniKav/UMBC-DATA606-Capstone/assets/158081112/a0553489-24c8-4d44-8ae7-ea3122d8e23d)
+## Visualizing the data after analysis
+![image](https://github.com/TejaswiniKav/UMBC-DATA606-Capstone/assets/158081112/61008e2d-f6e7-436a-a998-a966305c6089)
+## Finding the Outliers
+![image](https://github.com/TejaswiniKav/UMBC-DATA606-Capstone/assets/158081112/902e74cc-9497-4238-926d-0ad63e8e89c0)
+## Correlation Matrix
+![image](https://github.com/TejaswiniKav/UMBC-DATA606-Capstone/assets/158081112/7f89cbf4-75eb-48a1-be0d-4da41b9d1ee8)
+## Histogram of Customer Behavior
+![image](https://github.com/TejaswiniKav/UMBC-DATA606-Capstone/assets/158081112/d06f0485-d375-4130-a2a0-819b68ec66b7)
+## Distribution of Customer Status
+![image](https://github.com/TejaswiniKav/UMBC-DATA606-Capstone/assets/158081112/47e2d4bb-7ac8-4f2f-a720-dca52ca8cbad)
 
+## 5.Model Training
+1. Models used in my project are : Random Forest Classifier, SVM and Logistic Regression
+   
+2. Environments used for the project: Jupyter notebook, Google Colab, Github, VisualStudio
 
+3. Python packages : streamlit, pandas, requests, scikit-learn, requests, Builtins.
 
+4. Machine learning: Split the data into test and train datasets and applied the machine learning models on the data.
 
-##  References 
+## 1. Random Forest Classifier
+![image](https://github.com/TejaswiniKav/UMBC-DATA606-Capstone/assets/158081112/d1045d1d-cc6e-450f-a1f4-b28426155440)
+## 2. SVM
+![image](https://github.com/TejaswiniKav/UMBC-DATA606-Capstone/assets/158081112/4d5085b9-ea63-4d50-809d-112e39290c3b)
+## 3. Logistic Regression
+![image](https://github.com/TejaswiniKav/UMBC-DATA606-Capstone/assets/158081112/5b357a0d-9596-4ecc-8a61-2353547773d9)
+## Got the best accuracy in Random Forest Classifier model
+
+## 6. Streamlit application link: 
+
+## 7. References 
 The specific telecom customer churn dataset:
 https://www.mavenanalytics.io/blog/maven-churn-challenge
-
-
