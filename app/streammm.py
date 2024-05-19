@@ -33,7 +33,7 @@ def my_hash_func(obj):
 # Load the trained model from a local pickle file
 @st.cache(allow_output_mutation=True)
 def load_model():
-    with open('ML.pkl', 'rb') as file:
+    with open('Bestmodel.pkl', 'rb') as file:
         model = pickle.load(file)
     return model
 
@@ -44,7 +44,7 @@ st.title('Telecom Customer Churn Prediction')
 # model = load_model()
 
 # Save the model
-filename = 'ML.pkl'
+filename = 'Bestmodel.pkl'
 pickle.dump(load_model, open(filename, 'wb'))
 
 # Load the model
