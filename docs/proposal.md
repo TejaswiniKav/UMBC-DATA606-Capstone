@@ -17,7 +17,7 @@
 #Github profile link: https://github.com/TejaswiniKav/UMBC-DATA606-Capstone
 
 
-#LinkedIn Profile link:
+#LinkedIn Profile link: https://www.linkedin.com/in/tejaswini-kavuri-6a0869279/
 
 
 #PowerPoint presentation file:
