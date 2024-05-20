@@ -11,7 +11,7 @@
 #Title of the project: Telecom Customer Churn Prediction
 
 
-#Author: Tejaswini Kavuri(CM12215)
+#Author: Tejaswini Kavuri(CM12215), Spring 24'
 
 
 #Github profile link: https://github.com/TejaswiniKav/UMBC-DATA606-Capstone
